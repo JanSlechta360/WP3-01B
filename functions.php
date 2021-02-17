@@ -16,3 +16,4 @@ function getCarDescription(int $year):void {
         echo "Auto je způsobilé";
     }
 }
+
