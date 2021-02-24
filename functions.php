@@ -12,8 +12,11 @@ function getCarDescription(int $year):void {
     elseif ($year <= 2010) {
         echo "Navštěvujte servis pravidelně";
     }
+    elseif ($year <= 2021) {
+        echo "Auto je způsobilé"
+    }
     else {
-        echo "Auto je způsobilé";
+        echo "Auto ještě nebylo vyrobeno";
     }
 }
 
